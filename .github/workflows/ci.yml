@@ -39,5 +39,5 @@ jobs:
         if: always()
         uses: vercel/repository-dispatch/actions/status@v1
         with:
-          name: "Vercel - college-help-desk-agent-vercel: lint"
+          name: "Vercel - client: lint"
           github_token: ${{ secrets.GITHUB_TOKEN }}
